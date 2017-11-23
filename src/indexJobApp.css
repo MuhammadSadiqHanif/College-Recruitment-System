@@ -1,0 +1,120 @@
+body {
+  
+    background: lightgoldenrodyellow;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.active {    
+  background: black !important;
+  }
+
+
+  /*signup form*/
+  
+  .auth-form-body {
+    padding: 20px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #d8dee2;
+    margin-top:10px;
+    border-top: 1px solid #d8dee2;
+    border-radius: 5px;
+}
+
+
+.profileImg{
+    border: 5px solid grey;
+    background: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+     background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#ccc));
+    background-image: -webkit-linear-gradient(top, white, #ccc);
+    background-image: -moz-linear-gradient(top, white, #ccc);
+    background-image: linear-gradient(to bottom, white, #ccc);
+}
+.userpanel{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 650px;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc, -2px -2px 5px #ccc;
+    margin: 0 auto;
+    /*background: lightgrey;*/
+     background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#ccc));
+    background-image: -webkit-linear-gradient(top, white, #ccc);
+    background-image: -moz-linear-gradient(top, white, #ccc);
+    background-image: linear-gradient(to bottom, white, #ccc);
+    color:grey;
+}
+
+
+.containerCompany{
+    width: 500px;
+    /*border: 2px solid blue;*/
+    align-items: center;
+    margin: auto;
+    
+
+}
+.squareTable{
+    /*display:flex;*/
+    width: 300px;
+    height: 160px;
+    max-height: 160px;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc, -2px -2px 5px #ccc;
+    /*background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background-image: -webkit-linear-gradient(top, white, black);
+    background-image: -moz-linear-gradient(top, white, black);
+    background-image: linear-gradient(to bottom, white, black);*/
+    color: black;
+}
+
+.flexing{
+    display: inline-flex;
+    padding: 20px;
+}
+.hide{
+    display: none;
+}
+.page-header{
+    background: black;
+    color: grey;
+    font-weight: bold;
+    font-size: 25px;
+    /*align-items: center;*/
+    text-align: center;
+    /*margin: auto;*/
+    /*vertical-align: center;*/
+    padding: 5px;
+    /*margin-left: 50px;
+    margin-right: 50px;*/
+}
+.tableWidth{
+    margin-left: 200px;
+    margin-right: 200px;
+    /*margin: 200px;*/
+}
+.alertDiv{
+    /*margin: auto;
+    height: 200%;
+    font-size: 16px;*/
+    /*bottom: 25px;*/
+    top:52px;
+    z-index: 1000;
+    left: 25%;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+}
